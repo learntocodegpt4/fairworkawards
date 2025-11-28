@@ -88,6 +88,16 @@ Technical documentation for rule creation and management:
 - Step-by-step rule builder interface wireframes
 - API endpoints for rule management and tenant assignment
 
+### 🔧 [Rule Engine Technical Design](./docs/rule-engine-technical-design.md)
+Technical implementation guide for the rule engine:
+- **5 Dropdown Conditions**: Industry Award, Employment Type, Classification/Level, Allowances, Additional Tags
+- **MSSQL Database Schema**: Complete table definitions with pre-computed rules
+- **Rule Generation Strategies**: Pre-computed vs runtime generation with stored procedures
+- **Tag System**: System Admin-managed tags linking penalties and allowances
+- **Tenant Overrides**: Optional higher rate configurations
+- **Pay Rate Summary UI**: Tenant Admin interface showing calculated rates
+- **API Endpoints**: Complete REST API for rule calculation and management
+
 ## Use Cases
 
 This data and documentation can be used for:
