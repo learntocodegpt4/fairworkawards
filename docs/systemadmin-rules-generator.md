@@ -161,9 +161,9 @@ ORDER BY c.classification_level, pen.rate;
 | classification | level | base_weekly | penalty_desc | rate% | calculated |
 |----------------|-------|-------------|--------------|-------|------------|
 | Retail Level 1 | 1 | $1,008.90 | Saturday First 4hrs | 150% | $39.83 |
-| Retail Level 1 | 1 | Saturday After 4hrs | 200% | $53.10 |
-| Retail Level 1 | 1 | Sunday | 200% | $53.10 |
-| Retail Level 1 | 1 | Public Holiday | 300% | $79.65 |
+| Retail Level 1 | 1 | $1,008.90 | Saturday After 4hrs | 200% | $53.10 |
+| Retail Level 1 | 1 | $1,008.90 | Sunday | 200% | $53.10 |
+| Retail Level 1 | 1 | $1,008.90 | Public Holiday | 300% | $79.65 |
 
 ---
 
@@ -269,14 +269,14 @@ The System Admin can create rules by combining these dimensions:
 │                                                                              │
 │  DIMENSION 1: Employee Type (employee_rate_type_code)                       │
 │  ┌─────────┬─────────┬─────────┬─────────┐                                  │
-│  │   AD    │   JN    │   AA    │   AP    │                                  │
+│  │   AD    │   JN    │   AA    │   AP    │  = 4 types                       │
 │  │  Adult  │ Junior  │ Adult   │ Appren- │                                  │
 │  │         │         │ Appren. │  tice   │                                  │
 │  └─────────┴─────────┴─────────┴─────────┘                                  │
 │                       ×                                                      │
 │  DIMENSION 2: Classification Level (classification_level)                   │
 │  ┌────┬────┬────┬────┬────┬────┬────┬────┐                                  │
-│  │ L1 │ L2 │ L3 │ L4 │ L5 │ L6 │ L7 │ L8 │                                  │
+│  │ L1 │ L2 │ L3 │ L4 │ L5 │ L6 │ L7 │ L8 │  = 8 levels                      │
 │  └────┴────┴────┴────┴────┴────┴────┴────┘                                  │
 │                       ×                                                      │
 │  DIMENSION 3: Work Condition (penalty_description)                          │
@@ -285,7 +285,7 @@ The System Admin can create rules by combining these dimensions:
 │  │    Hours     │  First 4hrs  │              │   Holiday    │             │
 │  ├──────────────┼──────────────┼──────────────┼──────────────┤             │
 │  │   Overtime   │   Saturday   │   Overtime   │    Night     │             │
-│  │  First 3hrs  │  After 4hrs  │  After 3hrs  │    Shift     │             │
+│  │  First 3hrs  │  After 4hrs  │  After 3hrs  │    Shift     │  = 8 conditions│
 │  └──────────────┴──────────────┴──────────────┴──────────────┘             │
 │                       ×                                                      │
 │  DIMENSION 4: Allowances (optional add-ons)                                 │
@@ -294,10 +294,14 @@ The System Admin can create rules by combining these dimensions:
 │  │  Allowance   │  Allowance   │   Licence    │  Location    │             │
 │  ├──────────────┼──────────────┼──────────────┼──────────────┤             │
 │  │    Motor     │   Special    │   Cold Work  │   Cold Work  │             │
-│  │   Vehicle    │   Clothing   │    (1.3%)    │ <0°C (+2%)   │             │
+│  │   Vehicle    │   Clothing   │    (1.3%)    │ <0°C (+2%)   │  = 8 allowances│
 │  └──────────────┴──────────────┴──────────────┴──────────────┘             │
 │                                                                              │
-│  TOTAL COMBINATIONS = 4 × 8 × 12 × 10 = 3,840 possible rules               │
+│  BASE COMBINATIONS = 4 × 8 × 8 = 256 pay rules                              │
+│  WITH ALLOWANCES   = 256 × (2^8 allowance combinations) = 65,536 variations │
+│                                                                              │
+│  Note: Not all combinations are valid (e.g., Broken Hill only applies to    │
+│  specific locations). System Admin selects applicable rules per tenant.     │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
