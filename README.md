@@ -80,6 +80,14 @@ UX design specifications including:
 - Accessibility guidelines
 - Design system recommendations
 
+### ⚙️ [System Admin Rules Generator](./docs/systemadmin-rules-generator.md)
+Technical documentation for rule creation and management:
+- Entity relationship diagrams for rule generation
+- SQL join examples for combining classifications, penalties, and allowances
+- Rule combination matrix (employee types × levels × conditions × allowances)
+- Step-by-step rule builder interface wireframes
+- API endpoints for rule management and tenant assignment
+
 ## Use Cases
 
 This data and documentation can be used for:

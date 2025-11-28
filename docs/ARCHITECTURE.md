@@ -367,4 +367,5 @@ Employees:
 
 1. **For BA**: Review [BA_USER_STORIES.md](./BA_USER_STORIES.md) for detailed user stories
 2. **For UX Designer**: Review [UX_GUIDELINES.md](./UX_GUIDELINES.md) for wireframe suggestions
-3. **For Development Team**: Create technical specifications based on this architecture
+3. **For System Admin Rule Design**: Review [systemadmin-rules-generator.md](./systemadmin-rules-generator.md) for entity joins and rule combinations
+4. **For Development Team**: Create technical specifications based on this architecture
