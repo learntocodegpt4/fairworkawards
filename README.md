@@ -98,6 +98,18 @@ Technical implementation guide for the rule engine:
 - **Pay Rate Summary UI**: Tenant Admin interface showing calculated rates
 - **API Endpoints**: Complete REST API for rule calculation and management
 
+### 🚀 [.NET Rule Engine Architecture](./docs/dotnet-rule-engine-architecture.md)
+Complete .NET 8 implementation design with Azure cloud optimization:
+- **Technology Stack**: .NET 8, ASP.NET Core Minimal APIs, Microsoft RulesEngine, MediatR
+- **CQRS Design Pattern**: Command/Query separation with dedicated handlers
+- **Database Analysis**: Azure SQL Serverless vs PostgreSQL vs Cosmos DB comparison
+- **Caching Strategy**: Multi-layer caching (IMemoryCache + Redis)
+- **Azure Deployment**: Container Apps with scale-to-zero, cost optimization (~$30-55/month)
+- **REST API vs Azure Functions**: Decision matrix with recommendations
+- **Solution Structure**: Clean Architecture project organization
+- **Implementation Code**: Complete C# code samples for handlers, services, and endpoints
+- **Development Roadmap**: 8-week phased implementation plan
+
 ## Use Cases
 
 This data and documentation can be used for:
