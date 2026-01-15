@@ -831,7 +831,8 @@
       },
       "FairWorkAwards.Application/1.0.0": {
         "dependencies": {
-          "FairWorkAwards.Domain": "1.0.0"
+          "FairWorkAwards.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.23"
         },
         "runtime": {
           "FairWorkAwards.Application.dll": {

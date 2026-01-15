@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FairWorkAwards.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bf76f8b81f628fee2eea2047260807f5ec7223e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d2c935bad3bd94fc5c7d78f40b469704138c645")]
 [assembly: System.Reflection.AssemblyProductAttribute("FairWorkAwards.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FairWorkAwards.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

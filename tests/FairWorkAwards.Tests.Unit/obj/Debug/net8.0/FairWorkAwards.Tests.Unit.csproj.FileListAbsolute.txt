@@ -108,3 +108,13 @@
 /home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/obj/Debug/net8.0/FairWorkAwards.Tests.Unit.pdb
 /home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/obj/Debug/net8.0/FairWorkAwards.Tests.Unit.genruntimeconfig.cache
 /home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/obj/Debug/net8.0/ref/FairWorkAwards.Tests.Unit.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/runner/work/fairworkawards/fairworkawards/tests/FairWorkAwards.Tests.Unit/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
