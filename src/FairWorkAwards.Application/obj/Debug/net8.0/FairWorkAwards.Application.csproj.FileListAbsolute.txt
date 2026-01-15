@@ -1,0 +1,16 @@
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/bin/Debug/net8.0/FairWorkAwards.Application.deps.json
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/bin/Debug/net8.0/FairWorkAwards.Application.dll
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/bin/Debug/net8.0/FairWorkAwards.Application.pdb
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/bin/Debug/net8.0/FairWorkAwards.Domain.dll
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/bin/Debug/net8.0/FairWorkAwards.Domain.pdb
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.csproj.AssemblyReference.cache
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.AssemblyInfoInputs.cache
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.AssemblyInfo.cs
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.csproj.CoreCompileInputs.cache
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.sourcelink.json
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWork.355BF24B.Up2Date
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.dll
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/refint/FairWorkAwards.Application.dll
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/FairWorkAwards.Application.pdb
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Application/obj/Debug/net8.0/ref/FairWorkAwards.Application.dll
