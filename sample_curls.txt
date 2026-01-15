@@ -1,0 +1,19 @@
+curl --location 'https://api.fwc.gov.au/api/v1/awards' \
+--header 'limit: 100' \
+--header 'page: 1' \
+--header 'Ocp-Apim-Subscription-Key: ••••••' \
+--header 'Cookie: ARRAffinity=de023f960799acdae09b0ed659a0397ac6876e5cd26bbd74094e6fccaf7940c5'
+
+
+
+curl --location 'https://api.fwc.gov.au/api/v1/awards/MA000027/pay-rates?classification_level=null&employee_rate_type_code=null&page=1&limit=100' \
+--header 'Ocp-Apim-Subscription-Key: 4669506fdbea4e7783d3dbb7b899b935' \
+--header 'Accept: application/json' \
+--header 'Cache-Control: no-cache' \
+--header 'Cookie: ARRAffinity=de023f960799acdae09b0ed659a0397ac6876e5cd26bbd74094e6fccaf7940c5'
+
+
+curl --location 'https://api.fwc.gov.au/api/v1/awards/MA000027/classifications/90621/pay-rates' \
+--header 'Ocp-Apim-Subscription-Key: 4669506fdbea4e7783d3dbb7b899b935' \
+--header 'Cache-Control: no-cache' \
+--header 'Cookie: ARRAffinity=de023f960799acdae09b0ed659a0397ac6876e5cd26bbd74094e6fccaf7940c5'

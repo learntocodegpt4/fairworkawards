@@ -1,0 +1,495 @@
+{
+	"info": {
+		"_postman_id": "8b5a15e3-27aa-4da9-8cf1-9d8110e3ef61",
+		"name": "FWC Modern Awards API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45672357"
+	},
+	"item": [
+		{
+			"name": "Awards",
+			"item": [
+				{
+					"name": "Get All Awards",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "4669506fdbea4e7783d3dbb7b899b935",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Ocp-Apim-Subscription-Key",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "limit",
+								"value": "100",
+								"type": "text"
+							},
+							{
+								"key": "page",
+								"value": "1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.fwc.gov.au/api/v1/awards",
+							"protocol": "https",
+							"host": [
+								"api",
+								"fwc",
+								"gov",
+								"au"
+							],
+							"path": [
+								"api",
+								"v1",
+								"awards"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Awards",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "limit",
+										"value": "100",
+										"type": "text"
+									},
+									{
+										"key": "page",
+										"value": "100",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://api.fwc.gov.au/api/v1/awards",
+									"protocol": "https",
+									"host": [
+										"api",
+										"fwc",
+										"gov",
+										"au"
+									],
+									"path": [
+										"api",
+										"v1",
+										"awards"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 14 Nov 2025 07:37:42 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-store, must-revalidate, no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Fri, 14 Nov 2025 07:37:42 GMT"
+								},
+								{
+									"key": "Request-Context",
+									"value": "appId=cid-v1:54a9291e-788f-490c-b1eb-2dc1d0253cb7"
+								},
+								{
+									"key": "api-supported-versions",
+									"value": "1"
+								},
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'self'"
+								},
+								{
+									"key": "test",
+									"value": "300"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": ""
+								},
+								{
+									"key": "x-azure-ref",
+									"value": "20251114T073741Z-1579dc8b4f9j9qlphC1BL1bwbn0000000xc0000000007zke"
+								},
+								{
+									"key": "X-Cache",
+									"value": "CONFIG_NOCACHE"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_meta\": {\n        \"current_page\": 1,\n        \"page_count\": 16,\n        \"limit\": 10,\n        \"result_count\": 156,\n        \"first_row_on_page\": 1,\n        \"last_row_on_page\": 10,\n        \"has_more_results\": true,\n        \"has_previous_results\": false\n    },\n    \"results\": [\n        {\n            \"award_id\": 1752,\n            \"award_fixed_id\": 1,\n            \"code\": \"MA000001\",\n            \"name\": \"Black Coal Mining Industry Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 3,\n            \"last_modified_datetime\": \"2025-07-04T00:23:18+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1753,\n            \"award_fixed_id\": 2,\n            \"code\": \"MA000002\",\n            \"name\": \"Clerks—Private Sector Award 2020 \",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 2,\n            \"last_modified_datetime\": \"2025-06-30T17:00:38+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1754,\n            \"award_fixed_id\": 3,\n            \"code\": \"MA000003\",\n            \"name\": \"Fast Food Industry Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 3,\n            \"last_modified_datetime\": \"2025-07-04T00:23:19+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1755,\n            \"award_fixed_id\": 4,\n            \"code\": \"MA000004\",\n            \"name\": \"General Retail Industry Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 2,\n            \"last_modified_datetime\": \"2025-07-04T00:23:20+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1756,\n            \"award_fixed_id\": 5,\n            \"code\": \"MA000005\",\n            \"name\": \"Hair and Beauty Industry Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 3,\n            \"last_modified_datetime\": \"2025-07-04T00:23:20+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1757,\n            \"award_fixed_id\": 6,\n            \"code\": \"MA000006\",\n            \"name\": \"Higher Education Industry—Academic Staff—Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 2,\n            \"last_modified_datetime\": \"2025-07-04T00:23:20+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1758,\n            \"award_fixed_id\": 7,\n            \"code\": \"MA000007\",\n            \"name\": \"Higher Education Industry—General Staff—Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 2,\n            \"last_modified_datetime\": \"2025-07-04T00:23:20+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1759,\n            \"award_fixed_id\": 8,\n            \"code\": \"MA000008\",\n            \"name\": \"Horse and Greyhound Training Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 2,\n            \"last_modified_datetime\": \"2025-06-30T17:01:01+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1760,\n            \"award_fixed_id\": 9,\n            \"code\": \"MA000009\",\n            \"name\": \"Hospitality Industry (General) Award 2020\",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 2,\n            \"last_modified_datetime\": \"2025-07-04T00:23:20+00:00\",\n            \"published_year\": 2025\n        },\n        {\n            \"award_id\": 1761,\n            \"award_fixed_id\": 10,\n            \"code\": \"MA000010\",\n            \"name\": \"Manufacturing and Associated Industries and Occupations Award 2020 \",\n            \"award_operative_from\": \"2010-01-01\",\n            \"award_operative_to\": null,\n            \"version_number\": 2,\n            \"last_modified_datetime\": \"2025-07-04T00:23:20+00:00\",\n            \"published_year\": 2025\n        }\n    ],\n    \"_links\": [\n        {\n            \"href\": \"https://api.fwc.gov.au/api/v1/awards?page=1&limit=10\",\n            \"rel\": \"first\",\n            \"method\": \"GET\"\n        },\n        {\n            \"href\": \"https://api.fwc.gov.au/api/v1/awards?page=16&limit=10\",\n            \"rel\": \"last\",\n            \"method\": \"GET\"\n        },\n        {\n            \"href\": \"https://api.fwc.gov.au/api/v1/awards?page=2&limit=10\",\n            \"rel\": \"next\",\n            \"method\": \"GET\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Classifications for Award",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "4669506fdbea4e7783d3dbb7b899b935",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Ocp-Apim-Subscription-Key",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.fwc.gov.au/api/v1/awards/MA000027/classifications?page=2&limit=10&operative_from=&operative_to=&classification_level=&classification_fixed_id=\"",
+							"protocol": "https",
+							"host": [
+								"api",
+								"fwc",
+								"gov",
+								"au"
+							],
+							"path": [
+								"api",
+								"v1",
+								"awards",
+								"MA000027",
+								"classifications"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "operative_from",
+									"value": ""
+								},
+								{
+									"key": "operative_to",
+									"value": ""
+								},
+								{
+									"key": "classification_level",
+									"value": ""
+								},
+								{
+									"key": "classification_fixed_id",
+									"value": "\""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Classification",
+			"item": [
+				{
+					"name": "Get Classification by ID",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve all the pay-rates for an award",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Ocp-Apim-Subscription-Key",
+								"value": "4669506fdbea4e7783d3dbb7b899b935",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.fwc.gov.au/api/v1/awards/MA000027/pay-rates?classification_level&employee_rate_type_code&page=1&limit=100",
+							"protocol": "https",
+							"host": [
+								"api",
+								"fwc",
+								"gov",
+								"au"
+							],
+							"path": [
+								"api",
+								"v1",
+								"awards",
+								"MA000027",
+								"pay-rates"
+							],
+							"query": [
+								{
+									"key": "classification_level",
+									"value": null
+								},
+								{
+									"key": "employee_rate_type_code",
+									"value": null
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve award classification information using an award identifier",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Ocp-Apim-Subscription-Key",
+								"value": "4669506fdbea4e7783d3dbb7b899b935",
+								"type": "text"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.fwc.gov.au/api/v1/awards/MA000027/classifications?classification_level&page=1&limit=100",
+							"protocol": "https",
+							"host": [
+								"api",
+								"fwc",
+								"gov",
+								"au"
+							],
+							"path": [
+								"api",
+								"v1",
+								"awards",
+								"MA000027",
+								"classifications"
+							],
+							"query": [
+								{
+									"key": "classification_level",
+									"value": null
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "retrieve the current pay-rate for a classification",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Ocp-Apim-Subscription-Key",
+								"value": "4669506fdbea4e7783d3dbb7b899b935",
+								"type": "text"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.fwc.gov.au/api/v1/awards/MA000027/classifications/90621/pay-rates",
+							"protocol": "https",
+							"host": [
+								"api",
+								"fwc",
+								"gov",
+								"au"
+							],
+							"path": [
+								"api",
+								"v1",
+								"awards",
+								"MA000027",
+								"classifications",
+								"90621",
+								"pay-rates"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ExpenseAllowances",
+			"item": [
+				{
+					"name": "get expense_allowance_fixed_id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"type": "text"
+							},
+							{
+								"key": "Ocp-Apim-Subscription-Key",
+								"value": "4669506fdbea4e7783d3dbb7b899b935",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.fwc.gov.au/api/v1/awards/MA000027/expense-allowances",
+							"protocol": "https",
+							"host": [
+								"api",
+								"fwc",
+								"gov",
+								"au"
+							],
+							"path": [
+								"api",
+								"v1",
+								"awards",
+								"MA000027",
+								"expense-allowances"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List All Expense Allowances for an Award",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Penalties",
+			"item": [
+				{
+					"name": "Penalties",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "WageAllowances",
+			"item": [
+				{
+					"name": "Retrieve a current individual wage",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.fwc.gov.au/api/v1/awards/MA000027/wage-allowances/?limit=100&page=1",
+							"protocol": "https",
+							"host": [
+								"api",
+								"fwc",
+								"gov",
+								"au"
+							],
+							"path": [
+								"api",
+								"v1",
+								"awards",
+								"MA000027",
+								"wage-allowances",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "100"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

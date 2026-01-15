@@ -1,0 +1,126 @@
+{
+    "totalCount": 11,
+    "data": [
+        {
+            "award_id": 1870,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-07-04T00:23:33+00:00",
+            "published_year": 2025
+        },
+        {
+            "award_id": 1715,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-06-30T17:03:24+00:00",
+            "published_year": 2024
+        },
+        {
+            "award_id": 1560,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:04+00:00",
+            "published_year": 2023
+        },
+        {
+            "award_id": 1405,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:04+00:00",
+            "published_year": 2022
+        },
+        {
+            "award_id": 1250,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:04+00:00",
+            "published_year": 2021
+        },
+        {
+            "award_id": 1095,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:03+00:00",
+            "published_year": 2020
+        },
+        {
+            "award_id": 840,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:03+00:00",
+            "published_year": 2019
+        },
+        {
+            "award_id": 585,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:03+00:00",
+            "published_year": 2018
+        },
+        {
+            "award_id": 430,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:03+00:00",
+            "published_year": 2017
+        },
+        {
+            "award_id": 275,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:03+00:00",
+            "published_year": 2016
+        },
+        {
+            "award_id": 120,
+            "award_fixed_id": 120,
+            "code": "MA000120",
+            "name": "Children’s Services Award 2010",
+            "award_operative_from": "2010-01-01",
+            "award_operative_to": null,
+            "version_number": 3,
+            "last_modified_datetime": "2025-08-14T22:20:03+00:00",
+            "published_year": 2015
+        }
+    ]
+}
