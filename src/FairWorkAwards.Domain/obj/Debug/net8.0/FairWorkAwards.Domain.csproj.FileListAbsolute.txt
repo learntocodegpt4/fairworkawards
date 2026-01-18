@@ -1,0 +1,12 @@
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/bin/Debug/net8.0/FairWorkAwards.Domain.deps.json
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/bin/Debug/net8.0/FairWorkAwards.Domain.dll
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/bin/Debug/net8.0/FairWorkAwards.Domain.pdb
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/FairWorkAwards.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/FairWorkAwards.Domain.AssemblyInfoInputs.cache
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/FairWorkAwards.Domain.AssemblyInfo.cs
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/FairWorkAwards.Domain.csproj.CoreCompileInputs.cache
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/FairWorkAwards.Domain.sourcelink.json
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/FairWorkAwards.Domain.dll
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/refint/FairWorkAwards.Domain.dll
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/FairWorkAwards.Domain.pdb
+/home/runner/work/fairworkawards/fairworkawards/src/FairWorkAwards.Domain/obj/Debug/net8.0/ref/FairWorkAwards.Domain.dll
